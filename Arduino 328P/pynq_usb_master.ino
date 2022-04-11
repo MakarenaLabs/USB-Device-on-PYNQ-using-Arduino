@@ -11,10 +11,7 @@ bool new_char = false;
 void setup (void)
 {
   Serial.begin(115200);
-  //Serial.println("ECCOLO");
   Wire.begin(4);                // join i2c bus with address #4
-  //digitalWrite( SDA, 0 );
-  //digitalWrite( SCL, 0 );
   Wire.onReceive(receiveEvent); // register event
   
 }  // end of setup
