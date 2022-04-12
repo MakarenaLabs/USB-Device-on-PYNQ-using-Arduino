@@ -13,4 +13,4 @@ A little demo project for implementing an USB device on FPGA using an Arduino th
 
 ## Full tutorial
 
-coming soon (12/04/2022)
+https://www.makarenalabs.com/fpga-as-usb-device/
